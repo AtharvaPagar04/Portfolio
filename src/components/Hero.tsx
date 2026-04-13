@@ -49,7 +49,6 @@ export default function Hero() {
                 maxWidth: "960px",
                 margin: "0 auto",
                 textAlign: "center",
-                padding: "0 2rem",
             }}
         >
             <p style={{ color: "var(--text-muted)", marginBottom: "1rem", fontSize: "1.15rem", letterSpacing: "0.05em" }}>

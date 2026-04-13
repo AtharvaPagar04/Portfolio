@@ -43,7 +43,7 @@ export default function Hero() {
                 flexDirection: "column",
                 alignItems: "center",
                 justifyContent: "center",
-                padding: "0 2rem",
+                padding: "100px 2rem 0",
                 position: "relative",
                 zIndex: 1,
                 maxWidth: "960px",
@@ -51,12 +51,12 @@ export default function Hero() {
                 textAlign: "center",
             }}
         >
-            <p style={{ color: "var(--text-muted)", marginBottom: "1rem", fontSize: "1.15rem", letterSpacing: "0.05em" }}>
+            <p style={{ color: "var(--text-muted)", marginBottom: "1rem", fontSize: "1rem", letterSpacing: "0.05em" }}>
                 Hi there! 👋 I&apos;m
             </p>
             <h1
                 style={{
-                    fontSize: "clamp(3rem,7vw,5.5rem)",
+                    fontSize: "clamp(2.4rem,5.5vw,4.2rem)",
                     fontWeight: 800,
                     color: "#fff",
                     lineHeight: 1.1,
@@ -65,7 +65,7 @@ export default function Hero() {
             >
                 {personal.name}
             </h1>
-            <div style={{ fontSize: "clamp(1.3rem,3vw,2rem)", marginBottom: "1.75rem", minHeight: "2.5rem" }}>
+            <div style={{ fontSize: "clamp(1.1rem,2.2vw,1.6rem)", marginBottom: "1.75rem", minHeight: "2.5rem" }}>
                 <span style={{ color: "var(--text-muted)" }}>I&apos;m a </span>
                 <span style={{ color: "var(--purple)", fontWeight: 700 }}>{text}</span>
                 <span className="cursor" />
@@ -76,7 +76,7 @@ export default function Hero() {
                     lineHeight: 1.8,
                     maxWidth: "640px",
                     marginBottom: "2.5rem",
-                    fontSize: "1.1rem",
+                    fontSize: "0.95rem",
                 }}
             >
                 Passionate about building scalable, beautiful, and intelligent web applications. I love turning ideas into real-world products with clean code and great user experience.

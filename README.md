@@ -1,59 +1,50 @@
 # Atharva Pagar — Portfolio
 
-Personal portfolio website built with **Next.js 16**, **TypeScript**, and **Tailwind CSS v4**.
+> 🌐 **Live:** [portfolio-kappa-nine-4tzfdgmj5g.vercel.app](https://portfolio-kappa-nine-4tzfdgmj5g.vercel.app)
 
-## Tech Stack
+A modern, single-page developer portfolio with a pure black monochromatic theme, live canvas background, and smooth scroll animations.
 
-- **Framework** — Next.js 16 (App Router)
-- **Language** — TypeScript
-- **Styling** — Tailwind CSS v4 + Vanilla CSS
-- **Animations** — Canvas API (stars, aurora, shooting stars)
-- **Contact Form** — EmailJS
-- **Icons** — Font Awesome
+---
 
-## Getting Started
+## ✨ Highlights
 
-```bash
-# Install dependencies
-npm install
+- **Live background** — cursor-reactive aurora orbs, twinkling stars & shooting stars
+- **Typewriter animation** — cycling roles in the hero section
+- **Scroll reveal** — elements animate into view as you scroll
+- **Responsive** — fully optimised for desktop and mobile
+- **Contact form** — powered by EmailJS, no backend required
 
-# Run development server
-npm run dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) in your browser.
+## 🛠 Tech Stack
 
-## Contact Form Setup
+| Layer | Technology |
+|---|---|
+| Framework | Next.js 16 (App Router) |
+| Language | TypeScript |
+| Styling | Tailwind CSS v4 + Vanilla CSS |
+| Animations | Canvas API |
+| Contact | EmailJS |
+| Icons | Font Awesome |
+| Deployment | Vercel |
 
-The contact form uses [EmailJS](https://www.emailjs.com). Create a `.env.local` file in the root:
+---
 
-```env
-NEXT_PUBLIC_EMAILJS_SERVICE_ID=your_service_id
-NEXT_PUBLIC_EMAILJS_TEMPLATE_ID=your_template_id
-NEXT_PUBLIC_EMAILJS_PUBLIC_KEY=your_public_key
-```
+## 📂 Sections
 
-## Project Structure
+| Section | Description |
+|---|---|
+| Hero | Name, typewriter animation, CTA buttons |
+| About | Bio & resume download |
+| Skills | Tech categories (Languages, Full-Stack, AI/ML, etc.) |
+| Work Experience | Timeline of roles |
+| Projects | Cards with GitHub links |
+| Education | Academic history |
+| Certifications | Cloud & Blockchain certs |
+| Contact | EmailJS-powered contact form |
 
-```
-src/
-├── app/          # Next.js app router & global styles
-├── components/   # All UI sections (Hero, About, Skills, etc.)
-├── lib/          # data.ts — single source of truth for all content
-└── hooks/        # useScrollReveal custom hook
-```
+---
 
-## Sections
+## 📄 License
 
-- **Hero** — Name, typewriter role animation, CTA buttons
-- **About** — Bio, resume download
-- **Skills** — Tech stack categorised by domain
-- **Work Experience** — Timeline of roles
-- **Projects** — Project cards with GitHub links
-- **Education** — Academic background
-- **Certifications** — Cloud & Blockchain certs
-- **Contact** — EmailJS-powered contact form
-
-## License
-
-MIT
+MIT © [Atharva Pagar](https://github.com/AtharvaPagar04)

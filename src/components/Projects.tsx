@@ -16,16 +16,7 @@ export default function Projects() {
                 >
                     Projects
                 </h2>
-                <p
-                    style={{
-                        textAlign: "center",
-                        color: "var(--text-muted)",
-                        maxWidth: "480px",
-                        margin: "0 auto 2.5rem",
-                    }}
-                >
-                    A curated selection of my work spanning AI, full-stack development, and data analytics.
-                </p>
+
 
                 {/* Cards grid */}
                 <div

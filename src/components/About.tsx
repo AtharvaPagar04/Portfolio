@@ -48,7 +48,7 @@ export default function About() {
                     {/* Info cards */}
                     <div style={{ display: "flex", flexDirection: "column", gap: "0.75rem" }}>
                         {[
-                            { icon: "fas fa-graduation-cap", label: "Education", value: "B.Sc. CS (AIML) — VIT University" },
+                            { icon: "fas fa-graduation-cap", label: "Education", value: "B.Tech CSE (AI/ML) — VIT University" },
                             { icon: "fas fa-map-marker-alt", label: "Location", value: personal.location },
                             { icon: "fas fa-envelope", label: "Email", value: personal.email },
                             { icon: "fas fa-code", label: "Focus", value: "Full-Stack & AI/ML" },

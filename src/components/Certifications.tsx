@@ -78,24 +78,7 @@ export default function Certifications() {
                                 {cert.desc}
                             </p>
 
-                            <a
-                                href={cert.link}
-                                target="_blank"
-                                rel="noreferrer"
-                                style={{
-                                    fontSize: "0.8rem",
-                                    color: "var(--purple)",
-                                    textDecoration: "none",
-                                    display: "inline-flex",
-                                    alignItems: "center",
-                                    gap: "0.35rem",
-                                    transition: "color 0.2s",
-                                }}
-                                onMouseEnter={(e) => ((e.currentTarget as HTMLAnchorElement).style.color = "var(--purple-light)")}
-                                onMouseLeave={(e) => ((e.currentTarget as HTMLAnchorElement).style.color = "var(--purple)")}
-                            >
-                                View Credential <i className="fas fa-arrow-up-right-from-square" />
-                            </a>
+
                         </div>
                     ))}
                 </div>

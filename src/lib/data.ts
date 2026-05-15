@@ -80,6 +80,18 @@ export const experiences = [
 
 export const projects = [
     {
+        title: "Arbitrage-Free Implied Volatility Surface",
+        desc: "A quantitative finance research framework for implied volatility surface construction, smile analysis, and arbitrage-free modeling. Currently in progress with foundational data infrastructure built.",
+        tags: ["Quant Finance", "Python", "Volatility Surface"],
+        category: "quant",
+        badge: "Quant (WIP)",
+        badgeColor: "#f59e0b",
+        badgeTextColor: "#000",
+        bg: "linear-gradient(135deg,#1e3c72,#2a5298)",
+        live: "#",
+        code: "https://github.com/AtharvaPagar04/arbitrage-free-iv-surface",
+    },
+    {
         title: "Virtual Pen – Gesture-Based Drawing Tool",
         desc: "A computer vision application enabling users to draw using hand gestures with real-time hand tracking, color selection, and eraser features.",
         tags: ["Python", "OpenCV", "MediaPipe", "NumPy"],

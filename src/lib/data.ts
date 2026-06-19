@@ -68,11 +68,6 @@ export const skillCategories = [
         title: "Frontend / Infra",
         skills: ["React.js", "Next.js", "Tailwind CSS", "Git", "Linux", "Docker"],
     },
-    {
-        icon: "fas fa-tools",
-        title: "Tools",
-        skills: ["Git & GitHub", "Postman", "GitHub Copilot", "ChatGPT", "Docker"],
-    },
 ];
 
 export const experiences = [
@@ -90,6 +85,30 @@ export const experiences = [
 ];
 
 export const projects = [
+    {
+        title: "CodeSeek – Repository-Aware RAG Coding Assistant",
+        desc: "A local-first, repository-aware RAG assistant combining Qdrant vector search with in-process BM25 and Reciprocal Rank Fusion (RRF) for hybrid retrieval across codebases. Features a scored intent-classification layer (10 intent families), two-layer source-attribution model, and a retrieval-evaluation harness (DeepEval, pytest) to catch hit errors and false-absence failures.",
+        tags: ["Python", "Qdrant", "RAG", "Ollama", "Git"],
+        category: "ai-web",
+        badge: "RAG + LLM",
+        badgeColor: "#a78bfa",
+        badgeTextColor: "#fff",
+        bg: "linear-gradient(135deg,#1e1b4b,#312e81)",
+        live: "#",
+        code: "https://github.com/AtharvaPagar04/Codeseek",
+    },
+    {
+        title: "RL Trading Agent – LSTM/PPO Position-Sizing System",
+        desc: "An offline reinforcement-learning trading research system using a shared LSTM actor-critic policy trained with PPO to learn continuous long/short position sizing from crypto market sequences. Includes hourly OHLCV feature pipelines, risk-aware reward components, GAE, walk-forward testing, feature ablation, and exposure-equivalent baseline comparison across BTC, ETH, and SOL.",
+        tags: ["Python", "PyTorch", "PPO", "LSTM", "Binance OHLCV"],
+        category: "quant",
+        badge: "RL + Quant",
+        badgeColor: "#f59e0b",
+        badgeTextColor: "#000",
+        bg: "linear-gradient(135deg,#451a03,#78350f)",
+        live: "#",
+        code: "https://github.com/AtharvaPagar04/PPO-LSTM-Trader",
+    },
     {
         title: "Grid Trading Bot V3",
         desc: "A production-oriented algorithmic trading platform with a governed Python/FastAPI runtime, real-time telemetry, paper-trading engine, recovery-safe persistence, and a comprehensive Next.js operational dashboard.",

@@ -1,0 +1,106 @@
+{
+  ".gitignore": {
+    "mtime_ns": 1776110623356854917,
+    "size_bytes": 480
+  },
+  "AGENTS.md": {
+    "mtime_ns": 1776110623356854917,
+    "size_bytes": 327
+  },
+  "CLAUDE.md": {
+    "mtime_ns": 1776110623356854917,
+    "size_bytes": 11
+  },
+  "README.md": {
+    "mtime_ns": 1776110623356854917,
+    "size_bytes": 205
+  },
+  "eslint.config.mjs": {
+    "mtime_ns": 1776110623356854917,
+    "size_bytes": 465
+  },
+  "next.config.ts": {
+    "mtime_ns": 1776110623356854917,
+    "size_bytes": 156
+  },
+  "package.json": {
+    "mtime_ns": 1776110623356854917,
+    "size_bytes": 613
+  },
+  "postcss.config.mjs": {
+    "mtime_ns": 1776110623356854917,
+    "size_bytes": 94
+  },
+  "src/app/globals.css": {
+    "mtime_ns": 1776110623361444056,
+    "size_bytes": 7810
+  },
+  "src/app/layout.tsx": {
+    "mtime_ns": 1776110623361444056,
+    "size_bytes": 773
+  },
+  "src/app/page.tsx": {
+    "mtime_ns": 1776110982247102318,
+    "size_bytes": 916
+  },
+  "src/components/About.tsx": {
+    "mtime_ns": 1776111101336890684,
+    "size_bytes": 5001
+  },
+  "src/components/BackToTop.tsx": {
+    "mtime_ns": 1776110623361668803,
+    "size_bytes": 660
+  },
+  "src/components/Certifications.tsx": {
+    "mtime_ns": 1776111103346887375,
+    "size_bytes": 3761
+  },
+  "src/components/Contact.tsx": {
+    "mtime_ns": 1776110623361668803,
+    "size_bytes": 9412
+  },
+  "src/components/Education.tsx": {
+    "mtime_ns": 1776110623361668803,
+    "size_bytes": 3854
+  },
+  "src/components/Experience.tsx": {
+    "mtime_ns": 1776110623361668803,
+    "size_bytes": 2253
+  },
+  "src/components/Footer.tsx": {
+    "mtime_ns": 1776110623361668803,
+    "size_bytes": 669
+  },
+  "src/components/Hero.tsx": {
+    "mtime_ns": 1776111329376226316,
+    "size_bytes": 3850
+  },
+  "src/components/Navbar.tsx": {
+    "mtime_ns": 1776110623361668803,
+    "size_bytes": 7263
+  },
+  "src/components/Projects.tsx": {
+    "mtime_ns": 1776110984340431622,
+    "size_bytes": 2920
+  },
+  "src/components/Skills.tsx": {
+    "mtime_ns": 1776110623361668803,
+    "size_bytes": 3020
+  },
+  "src/components/StarsCanvas.tsx": {
+    "mtime_ns": 1776110623361668803,
+    "size_bytes": 5944
+  },
+  "src/hooks/useScrollReveal.ts": {
+    "mtime_ns": 1776110623361668803,
+    "size_bytes": 814
+  },
+  "src/lib/data.ts": {
+    "mtime_ns": 1778845212063201562,
+    "size_bytes": 8084
+  },
+  "tsconfig.json": {
+    "mtime_ns": 1776110623361668803,
+    "size_bytes": 670
+  }
+}

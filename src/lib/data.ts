@@ -4,16 +4,16 @@
 export const personal = {
     name: "Atharva Pagar",
     logo: "Atharva",
-    tagline: ["Full-Stack Developer", "AI/ML Enthusiast", "Problem Solver", "Open-Source Contributor"],
+    tagline: ["GenAI Engineer", "AI/ML Enthusiast", "Problem Solver", "Open-Source Contributor"],
     about:
-        "Motivated software developer with strong problem-solving skills, quick adaptability, and a disciplined approach to work. I bring focus, curiosity, and independence gained through sports and solo-travel, with a drive to learn and contribute to real project environments.",
+        "I'm a Computer Science (AI & ML) undergraduate focused on building practical, production-style AI systems — repository-aware RAG applications, hybrid retrieval pipelines, reinforcement-learning trading agents, and local LLM tooling. Hands-on with Python, PyTorch, Qdrant, and Ollama, with a strong foundation in full-stack engineering using React.js and Next.js.",
     about2:
-        "I'm currently pursuing a B.Tech in Computer Science & Engineering (AI & ML) at VIT Bhopal University. I enjoy building intelligent, full-stack applications — from computer vision tools with Python and OpenCV to responsive frontends with Next.js and Tailwind CSS.",
+        "I'm currently pursuing a B.Tech in Computer Science & Engineering (AI & ML) at VIT Bhopal University, and actively seeking AI Engineer / GenAI Engineer / LLM Engineer internship roles involving RAG systems, applied reinforcement learning, and retrieval evaluation.",
     email: "atharvapagar04@gmail.com",
     phone: "+91 9403148744",
-    location: "Bhopal, India",
-    cgpa: "7.71",
-    resumeUrl: "/resume.pdf",
+    location: "Nashik, Maharashtra",
+    cgpa: "7.73",
+    resumeUrl: "/Resume_Atharva_Pagar.pdf",
     socials: {
         linkedin: "https://www.linkedin.com/in/atharva-pagar-809bbb273",
         github: "https://github.com",
@@ -24,41 +24,54 @@ export const personal = {
 
 export const skillCategories = [
     {
+        icon: "fas fa-robot",
+        title: "AI / GenAI",
+        skills: ["RAG systems", "LLM application development", "Prompt engineering", "LangChain", "LlamaIndex", "Ollama", "Hugging Face Transformers"],
+    },
+    {
+        icon: "fas fa-sync-alt",
+        title: "Reinforcement Learning",
+        skills: ["PPO", "Actor-Critic architectures", "GAE", "Reward shaping", "Policy-gradient methods"],
+    },
+    {
+        icon: "fas fa-brain",
+        title: "Deep Learning",
+        skills: ["PyTorch", "LSTM / Sequence modeling", "Time-series feature engineering"],
+    },
+    {
+        icon: "fas fa-search",
+        title: "Retrieval / Vector Search",
+        skills: ["Qdrant", "Embeddings", "Hybrid search (BM25 + RRF)", "Semantic search", "Retrieval evaluation"],
+    },
+    {
+        icon: "fas fa-check-circle",
+        title: "Evaluation / Observability",
+        skills: ["DeepEval", "pytest", "Groundedness & hallucination testing"],
+    },
+    {
+        icon: "fas fa-sliders-h",
+        title: "Model Adaptation",
+        skills: ["LoRA", "PEFT", "Local LLM inference workflows"],
+    },
+    {
+        icon: "fas fa-chart-line",
+        title: "Quant / Trading",
+        skills: ["Backtesting", "Equity-curve evaluation", "Multi-asset pipelines", "Binance API", "OHLCV data processing"],
+    },
+    {
         icon: "fas fa-code",
-        title: "Programming Languages",
-        skills: ["Java", "Python", "C++", "JavaScript"],
+        title: "Programming / Backend",
+        skills: ["Python", "Java", "JavaScript/TypeScript", "FastAPI", "REST APIs", "SQLite", "PostgreSQL", "MongoDB"],
     },
     {
         icon: "fas fa-laptop-code",
-        title: "Full-Stack",
-        skills: ["MERN Stack", "React.js", "Next.js", "Node.js", "Express.js", "Tailwind CSS"],
-    },
-    {
-        icon: "fas fa-database",
-        title: "Databases",
-        skills: ["MySQL", "PostgreSQL", "MongoDB"],
+        title: "Frontend / Infra",
+        skills: ["React.js", "Next.js", "Tailwind CSS", "Git", "Linux", "Docker"],
     },
     {
         icon: "fas fa-tools",
-        title: "Tools & Technologies",
-        skills: ["Git & GitHub", "Postman", "GitHub Copilot", "ChatGPT", "Linux Basics"],
-    },
-    {
-        icon: "fas fa-cogs",
-        title: "Software Engineering",
-        skills: ["OOP", "Basic DSA", "Computer Networks"],
-    },
-
-    {
-        icon: "fas fa-robot",
-        title: "AI & LLM-Oriented Skills",
-        skills: [
-            "Computer Vision for visual analysis & interpretation",
-            "NLP fundamentals for LLM data understanding",
-            "Reinforcement Learning concepts (RLHF basics)",
-            "Machine Learning model evaluation & data quality understanding",
-            "Dataset curation, preprocessing & structuring",
-        ],
+        title: "Tools",
+        skills: ["Git & GitHub", "Postman", "GitHub Copilot", "ChatGPT", "Docker"],
     },
 ];
 
@@ -70,27 +83,26 @@ export const experiences = [
         company: "Yash Infotech",
         companyClass: "company-purple",
         points: [
-            "Diagnosed and resolved system issues, strengthening analytical thinking and technical troubleshooting skills.",
-            "Assisted in deploying small-scale network setups (routers, cabling, basic configuration), gaining practical IT infrastructure exposure.",
-            "Coordinated with clients during service visits, improving communication and real-world problem-solving under time constraints.",
-            "Streamlined equipment handling and documentation, ensuring efficient workflow and organized technical operations.",
+            "Diagnosed and resolved system, hardware, OS, and basic network issues, strengthening troubleshooting and root-cause analysis skills.",
+            "Assisted with small-scale network setups and basic configuration during client visits, maintaining equipment and documentation workflows under time constraints.",
         ],
     },
 ];
 
 export const projects = [
     {
-        title: "Arbitrage-Free Implied Volatility Surface",
-        desc: "A quantitative finance research framework for implied volatility surface construction, smile analysis, and arbitrage-free modeling. Currently in progress with foundational data infrastructure built.",
-        tags: ["Quant Finance", "Python", "Volatility Surface"],
+        title: "Grid Trading Bot V3",
+        desc: "A production-oriented algorithmic trading platform with a governed Python/FastAPI runtime, real-time telemetry, paper-trading engine, recovery-safe persistence, and a comprehensive Next.js operational dashboard.",
+        tags: ["Python", "FastAPI", "Next.js", "TypeScript", "WebSockets"],
         category: "quant",
-        badge: "Quant (WIP)",
-        badgeColor: "#f59e0b",
-        badgeTextColor: "#000",
-        bg: "linear-gradient(135deg,#1e3c72,#2a5298)",
+        badge: "Trading System",
+        badgeColor: "#0ea5e9",
+        badgeTextColor: "#fff",
+        bg: "linear-gradient(135deg,#0c4a6e,#0369a1)",
         live: "#",
-        code: "https://github.com/AtharvaPagar04/arbitrage-free-iv-surface",
+        code: "https://github.com/AtharvaPagar04/Trading-Bot",
     },
+
     {
         title: "Virtual Pen – Gesture-Based Drawing Tool",
         desc: "A computer vision application enabling users to draw using hand gestures with real-time hand tracking, color selection, and eraser features.",
@@ -134,7 +146,7 @@ export const education = [
         location: "Bhopal, India",
         degree: "B.Tech – Computer Science and Engineering (AI & ML)",
         institution: "VIT Bhopal University",
-        badge: "CGPA: 7.71",
+        badge: "CGPA: 7.73",
         points: [
             "Specializing in Artificial Intelligence and Machine Learning.",
             "Building full-stack and AI-driven projects to apply classroom learning.",
